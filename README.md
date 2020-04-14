@@ -59,7 +59,7 @@ omp	：スレッド並列数
 # MD後のディレクトリ階層の一例
 
 TALE.pdb
-├── TALE_rmsd.xvg
+├── TALE_rmsd.xvg  
 ├── em
 │   ├── em.edr
 │   ├── em.gro
