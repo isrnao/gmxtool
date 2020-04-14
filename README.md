@@ -1,36 +1,36 @@
-##（例）TALE.pdbをMDする場合
+## （例）TALE.pdbをMDする場合
 
-#/pdb
+# /pdb
 
 gmxtool/pdb フォルダ内に任意の.pdbファイルを入れる ※複数個に対応
 
 
-#実行
+# 実行
 $ bash gmx.sh
 (capecod : >qsub gmx.sh)
 
 
-#/.
+# /.
 
 初回にTALE①、log②、rmsd③フォルダがgmxtool内に追加される
 
 
-#/TALE　①
+# /TALE　①
 
 MDされる.pdbのファイル名が実行フォルダになり、直下にMD結果が出力される
 
 
-#/log　②
+# /log　②
 
 実行済みpdbファイルがlogフォルダに移される
 
 
-#/rmsd　③
+# /rmsd　③
 
 クリーニング済みのrmsdデータが出力される
 
 
-#パラメータ調整
+# パラメータ調整
 
 gmx.sh
 #------------------
@@ -56,7 +56,7 @@ omp	：スレッド並列数
 -N	：Job名
 
 
-#MD後のディレクトリ階層の一例
+# MD後のディレクトリ階層の一例
 
 TALE.pdb
 ├── TALE_rmsd.xvg
