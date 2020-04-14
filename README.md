@@ -58,64 +58,64 @@ omp	：スレッド並列数
 
 # MD後のディレクトリ階層の一例
 
-TALE.pdb
+TALE.pdb  
 ├── TALE_rmsd.xvg  
-├── em
-│   ├── em.edr
-│   ├── em.gro
-│   ├── em.log
-│   ├── em.tpr
-│   ├── em.trr
-│   └── mdout.mdp
-├── md.mdp
-├── md_0_1.cpt
-├── md_0_1.edr
-├── md_0_1.gro
-├── md_0_1.log
-├── md_0_1.tpr
-├── md_0_1.trr
-├── md_0_1.xtc
-├── md_0_1_fix.xtc
-├── mdout.mdp
-├── minim
-│   ├── #topol.top.1#
-│   ├── #topol.top.2#
-│   ├── TALE.gro
-│   ├── TALE_newbox.gro
-│   ├── TALE_solv.gro
-│   ├── TALE_solv_ions.gro
-│   ├── ions.mdp
-│   ├── ions.tpr
-│   ├── mdout.mdp
-│   └── minim.mdp
-├── npt
-│   ├── npt.cpt
-│   ├── npt.edr
-│   ├── npt.gro
-│   ├── npt.log
-│   ├── npt.mdp
-│   ├── npt.tpr
-│   ├── npt.trr
-│   ├── posre.itp
-│   └── topol.top
-└── nvt
-    ├── mdout.mdp
-    ├── nvt.cpt
-    ├── nvt.edr
-    ├── nvt.gro
-    ├── nvt.log
-    ├── nvt.mdp
-    ├── nvt.tpr
-    └── nvt.trr
-gmx.sh
-log
-└── TALE.pdb
-mdp
-├── ions.mdp
-├── md.mdp
-├── minim.mdp
-├── npt.mdp
-└── nvt.mdp
-pdb
-rmsd
-└── TALE_rmsd.csv
+├── em  
+│   ├── em.edr  
+│   ├── em.gro  
+│   ├── em.log  
+│   ├── em.tpr  
+│   ├── em.trr  
+│   └── mdout.mdp  
+├── md.mdp  
+├── md_0_1.cpt  
+├── md_0_1.edr  
+├── md_0_1.gro  
+├── md_0_1.log  
+├── md_0_1.tpr  
+├── md_0_1.trr  
+├── md_0_1.xtc  
+├── md_0_1_fix.xtc  
+├── mdout.mdp  
+├── minim  
+│   ├── #topol.top.1#  
+│   ├── #topol.top.2#  
+│   ├── TALE.gro  
+│   ├── TALE_newbox.gro  
+│   ├── TALE_solv.gro  
+│   ├── TALE_solv_ions.gro  
+│   ├── ions.mdp  
+│   ├── ions.tpr  
+│   ├── mdout.mdp  
+│   └── minim.mdp  
+├── npt  
+│   ├── npt.cpt  
+│   ├── npt.edr  
+│   ├── npt.gro  
+│   ├── npt.log  
+│   ├── npt.mdp  
+│   ├── npt.tpr  
+│   ├── npt.trr  
+│   ├── posre.itp  
+│   └── topol.top  
+└── nvt  
+    ├── mdout.mdp  
+    ├── nvt.cpt  
+    ├── nvt.edr  
+    ├── nvt.gro  
+    ├── nvt.log  
+    ├── nvt.mdp  
+    ├── nvt.tpr  
+    └── nvt.trr  
+gmx.sh  
+log  
+└── TALE.pdb  
+mdp  
+├── ions.mdp  
+├── md.mdp  
+├── minim.mdp  
+├── npt.mdp  
+└── nvt.mdp  
+pdb  
+rmsd  
+└── TALE_rmsd.csv  
